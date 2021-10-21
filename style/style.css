@@ -293,3 +293,121 @@ padding-right: 41px;
 .arrow{
     padding-right: 15px;
 }
+
+/* footer */
+
+.footer{
+    background: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-50{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.col-50.text__center{
+    align-items:center;
+    justify-content: center;
+    
+}
+.footer-heading{
+    margin-top: 130px;
+    margin-bottom: 60px;
+    font-family: 'Parangon 530 C', sans-serif;
+    font-size: 30px;
+    line-height: 72px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+.footer-item{
+    margin-bottom: 205px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    max-width: 360px;
+}
+.form-block{
+    margin-top: 150px;
+    
+    
+    
+}
+form{
+    width: 610px;
+    border: 2px solid white;
+}
+.form-row{  
+    display: flex;
+}
+
+.coll-50{
+width: 50%;
+height: 45px;
+border: 2px solid white;
+}
+.coll-100{
+    width: 100%;
+    height: 45px;
+    border: 3px solid white;
+}
+.coll-textarea{
+    width: 100%;
+    height: 155px;
+    border: 3px solid white;
+}
+
+.form-block input, .form-block textarea{
+    background: transparent;
+    border: 3px solid white;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+.forma-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.fom-item{
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.form-button{
+    padding: 20px 50px;
+    font-family: 'Parangon 530 C';
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6ae48;
+    text-decoration: none;
+    color:white;
+}
+
+/* orange */
+
+.orange{
+    background-color: #f6ae48;
+    height: 110px;
+}
