@@ -335,10 +335,8 @@ padding-right: 41px;
 }
 .form-block{
     margin-top: 150px;
-    
-    
-    
 }
+
 form{
     width: 610px;
     border: 2px solid white;
@@ -379,6 +377,22 @@ input::placeholder, textarea::placeholder{
     letter-spacing: 0.05em;
     color: #ffffff;
 }
+input, textarea{
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+input:focus::placeholder, textarea:focus::placeholder{
+    font-size: 0;
+    transition: linear 0.3s;
+}
+
 .forma-bottom{
     display: flex;
     justify-content: space-evenly;
@@ -402,12 +416,92 @@ input::placeholder, textarea::placeholder{
     border-radius: 5px;
     background-color: #f6ae48;
     text-decoration: none;
-    color:white;
+    color:white;}
+
+/* section-seven */
+.bg-seven{
+    position: absolute;
+    top: -18px;
+    left: -61px;
+    z-index: -1;
+}
+.seven-box{
+position: relative;
+}
+.section-seven{
+    position: relative;
+}
+.section-9{
+    position: absolute;
+    right: 0;
+    top: -30%;
 }
 
+
+.seven-rel{
+   position: relative;
+}
+
+/* section-nine */
+
+.section-nine, .section-seven{
+    color: black;
+}
+.nine-box, .seven-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+.col-60{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-col__60{
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+}
+.bg-nine{
+    position: absolute;
+    top: -14px;
+    left: -33px;
+    z-index: -1;
+}
+
+.col-40{
+    width: 40%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.nine-title, .seven-title{
+    font-family: 'Parangon 530C';
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.nine-item, .seven-item{
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 700;
+    
+}
 /* orange */
 
 .orange{
     background-color: #f6ae48;
     height: 110px;
 }
+/* .two-section, .three-section, .section-seven, .section-nine, .footer, .orange{
+    border-left: 1px solid #f6ae48;
+    border-right: 1px solid #f6ae48;
+}     */
