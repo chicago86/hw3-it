@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 @font-face {
     font-family: 'PT Sans Caption';
@@ -29,6 +31,25 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura-Bold.woff2') format('woff2'),
+        url('../fonts/Futura-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-Medium.woff2') format('woff2'),
+        url('../fonts/Futura-Bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 
 *{
@@ -37,6 +58,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 
 body{
     font: 400 16px/1.6 Arial, sans-serif;
@@ -294,6 +319,222 @@ padding-right: 41px;
     padding-right: 15px;
 }
 
+
+
+/* section-four */
+
+
+
+.section-four{
+    background: url(../img/four.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.four-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fot-heading{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 110px 0 70px;
+}
+
+.heading-item{
+    max-width: 1145px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 160px;
+}
+
+/* section-five */
+.section-five{
+    position: relative;
+}
+.img-left{
+    position: absolute;
+    left: 0;
+    top: -300px;
+    z-index: 99;
+}
+.box-five{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    margin-top: 210px;
+}
+.box-col{
+    width: 363px;
+    height: 315px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+
+}
+.box-col::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .6;
+    
+}
+.col-1{
+    background: url('../img/1.jpg');
+}
+.col-2{
+    background: url('../img/2.jpg');
+    margin: 0 15px;
+}
+.col-3{
+    background: url('../img/3.jpg')
+}
+.five-heading{
+    font-family: 'Futura';
+    font-size: 50.6px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    margin: 75px 73px 65px 35px;
+    position: relative;
+}
+.five-heading::before{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    background-color: #fff;
+    width: 260px;
+    height: 1px;
+   
+}
+.five-a{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -30px;
+    width: 100%;
+
+}
+.button-five{
+    display: inline-block;
+    padding: 10px 25px;
+    border: 3px solid #166f83;
+}
+
+.button-five__yellow{
+    border: 3px solid #ffcb00;
+}
+.button-five__green{
+    border: 3px solid #66bf0d;
+}
+/* section-six */
+.six-rel{
+    flex-direction: column;
+}
+.google{
+    margin-bottom: 30px;
+}
+.yandex{
+    margin-bottom: 120px;
+}
+
+/* section-seven */
+.bg-seven{
+    position: absolute;
+    top: -18px;
+    left: -61px;
+    z-index: -1;
+}
+.seven-box{
+position: relative;
+}
+.section-seven{
+    position: relative;
+}
+.section-9{
+    position: absolute;
+    right: 0;
+    top: -30%;
+}
+
+
+.seven-rel{
+   position: relative;
+}
+
+/* section-nine */
+
+.section-nine, .section-seven, .section-six{
+    color: black;
+}
+.nine-box, .seven-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+.col-60{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-col__60{
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
+}
+.bg-nine{
+    position: absolute;
+    top: -14px;
+    left: -33px;
+    z-index: -1;
+}
+
+.col-40{
+    width: 40%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.nine-title, .seven-title{
+    font-family: 'Parangon 530C';
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.nine-item, .seven-item{
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 700;
+    
+}
 /* footer */
 
 .footer{
@@ -418,83 +659,7 @@ input:focus::placeholder, textarea:focus::placeholder{
     text-decoration: none;
     color:white;}
 
-/* section-seven */
-.bg-seven{
-    position: absolute;
-    top: -18px;
-    left: -61px;
-    z-index: -1;
-}
-.seven-box{
-position: relative;
-}
-.section-seven{
-    position: relative;
-}
-.section-9{
-    position: absolute;
-    right: 0;
-    top: -30%;
-}
 
-
-.seven-rel{
-   position: relative;
-}
-
-/* section-nine */
-
-.section-nine, .section-seven{
-    color: black;
-}
-.nine-box, .seven-box{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 150px;
-    margin-bottom: 250px;
-}
-.col-60{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.box-col__60{
-    max-width: 600px;
-    position: relative;
-    z-index: 1;
-}
-.bg-nine{
-    position: absolute;
-    top: -14px;
-    left: -33px;
-    z-index: -1;
-}
-
-.col-40{
-    width: 40%;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-.nine-title, .seven-title{
-    font-family: 'Parangon 530C';
-    font-size: 36px;
-    line-height: 30px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-}
-.nine-item, .seven-item{
-    font-family: Arial;
-    font-size: 24px;
-    line-height: 48px;
-    font-weight: 700;
-    
-}
 /* orange */
 
 .orange{
