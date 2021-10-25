@@ -49,9 +49,6 @@
     font-display: swap;
 }
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -75,7 +72,6 @@ body{
 }
 
 /* one */
-
 
 .one_section{
     padding: 50px 20px;
@@ -243,20 +239,20 @@ body{
     align-items: center;
 }
 .thre-heading{
-font-size: 48px;
-line-height: 30px;
-font-weight: 700;
-letter-spacing: 0.05em;
+    font-size: 48px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
 }
 .col-70{
     width: 70%;
 }
 .heading-info{
-opacity: 0.8;
-font-family: Arial;
-font-size: 20px;
-line-height: 30px;
-font-weight: 400;
+    opacity: 0.8;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
 letter-spacing: 0.05em;
 }
 
@@ -277,7 +273,7 @@ letter-spacing: 0.05em;
     line-height: 25px;
     font-weight: 700;
     letter-spacing: 0.05em;
-   
+
 }
 .block-two__item{
     font-family: Arial;
@@ -319,11 +315,7 @@ padding-right: 41px;
     padding-right: 15px;
 }
 
-
-
 /* section-four */
-
-
 
 .section-four{
     background: url(../img/four.jpg);
@@ -646,7 +638,6 @@ position: relative;
     line-height: 30px;
     font-weight: 400;
     letter-spacing: 0.05em;
-    
 }
 
 .eight-box{
@@ -778,8 +769,10 @@ position: relative;
 }
 
 form{
-    width: 610px;
-    border: 2px solid white;
+    width: 640px;
+}
+.border-form{
+    border: 2px solid white; 
 }
 .form-row{  
     display: flex;
@@ -836,7 +829,8 @@ input:focus::placeholder, textarea:focus::placeholder{
 .forma-bottom{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 15px;
+    
+    padding: 20px 0;
 }
 .fom-item{
     font-family: Arial;
@@ -847,16 +841,17 @@ input:focus::placeholder, textarea:focus::placeholder{
 }
 
 .form-button{
-    padding: 20px 50px;
-    font-family: 'Parangon 530 C';
+    width: 143px;
+    height: 44px;
+    background-color: #f6ae48;
+    font-family: 'Parangon 530C';
     font-size: 14px;
     letter-spacing: 0.05em;
-    text-decoration: none;
     border: none;
     border-radius: 5px;
-    background-color: #f6ae48;
-    text-decoration: none;
-    color:white;}
+    text-decoration: uppercase;
+    color:white;
+}
 
 
 /* orange */
